@@ -1,0 +1,697 @@
+{
+  "manifestVersion": "2026-09-30.1",
+  "packageVersion": "2.0.0",
+  "createdAt": "2026-10-02T03:35:38.724Z",
+  "packageFile": "agentdev-2.0.0.tgz",
+  "packageSha256": "e5f2800c2eddf8656460e81b5d4571ca8a1f91c2563f4ea06d452b45cbab5651",
+  "packageBytes": 465269,
+  "files": [
+    {
+      "path": "INSTALL.md",
+      "sha256": "8740d7c3d80a02d292267586f9e03b2160ad8e8fd856bfd9e50e256c56c3dbdc",
+      "bytes": 2607
+    },
+    {
+      "path": "agentdev-activate.mjs",
+      "sha256": "7af6849222eb270b8d71555388efbac01bafd64f7383317dbe3418d2bccc4006",
+      "bytes": 11887
+    },
+    {
+      "path": "agentdev-fingerprint.mjs",
+      "sha256": "dec33ff214429b6a158454e1ec3e1f9a04d63683e1a72f0f315d81e3878613cf",
+      "bytes": 6198
+    },
+    {
+      "path": "build-report.json",
+      "sha256": "eb01b9f72a7fab0af105a70b2beb14bd11e4c685fc593eb50030105c4e87a57c",
+      "bytes": 5412
+    },
+    {
+      "path": "calibration/check.js",
+      "sha256": "8dde82409d1975ba2040696ac6557911524e0f67ba50ab97396cec52e0314f9b",
+      "bytes": 21733
+    },
+    {
+      "path": "calibration/domains/doc-processing/tasks.json",
+      "sha256": "6e4d6318f4d7f124db177dc6c188c204e82c7d3d4408952f207e45cda98db179",
+      "bytes": 13838
+    },
+    {
+      "path": "calibration/domains/general/tasks.json",
+      "sha256": "d180e71c87e3c6b672759017da271b5e65986d846b6748702829ccd5473fc7f4",
+      "bytes": 10298
+    },
+    {
+      "path": "calibration/release-checklist.md",
+      "sha256": "9e1762c00c12697aa3464e974e95f72995d2b9c4ca3a7842ec13ad1a8021dc85",
+      "bytes": 5909
+    },
+    {
+      "path": "calibration/routing.json",
+      "sha256": "65b2c7d388571b6556a3560a9d2b8b18e30a0377b652f9549577484e88811a17",
+      "bytes": 1059
+    },
+    {
+      "path": "distribute/check-namespace.js",
+      "sha256": "05fae0935368e54cf04dd16e73dbb7bb1bf754439dfd5d338451e1265ebdf5f2",
+      "bytes": 13620
+    },
+    {
+      "path": "distribute/distribute.ps1",
+      "sha256": "131cab6c486359e50c53105eca6920c5df27cad4c8cda126356cc0beb0a457bb",
+      "bytes": 5146
+    },
+    {
+      "path": "distribute/distribute.sh",
+      "sha256": "4938a601640ac5d104bbeea7ff796adaf50aba793c9f7ead7d6cd5c7d156ed02",
+      "bytes": 4285
+    },
+    {
+      "path": "distribute/mcp-configs/README.md",
+      "sha256": "52b19b0dc65dc6de817f6548c561dbaeae45b55d06f1349b9e38641cee1d567d",
+      "bytes": 2687
+    },
+    {
+      "path": "distribute/mcp-configs/claude-code.mcp.json",
+      "sha256": "4563fc975b99939f5b5a81c147d6ad26a9b3bfc16889d15b1c9f239334416a67",
+      "bytes": 711
+    },
+    {
+      "path": "distribute/mcp-configs/codex.config.toml",
+      "sha256": "6e9bbce082eb1040b1f82eed2c0ff8b2ef22df33f5bae0c1ac5ddacbeaf88b86",
+      "bytes": 746
+    },
+    {
+      "path": "distribute/mcp-configs/commercial-node.mcp.json",
+      "sha256": "8c51f761dec0e8dc3bc1b5e348af98f82f77678b19695e3e096ed69f6412dd3a",
+      "bytes": 583
+    },
+    {
+      "path": "distribute/mcp-configs/cursor.mcp.json",
+      "sha256": "384d9b2aca4dccf5f06856a76c8fa5a0f1e57e3357c08ea1b66a0301d36422f8",
+      "bytes": 549
+    },
+    {
+      "path": "distribute/mcp-configs/opencode.json",
+      "sha256": "37071762dec010835b54ead029d4da6a5e22aa2e581aaf1ac81587afd91b2b7d",
+      "bytes": 652
+    },
+    {
+      "path": "distribute/mcp-configs/qoder.mcp.json",
+      "sha256": "0c669e0aa7c8352b9284808247a0851454f638595a3c987bccad1883da61eda7",
+      "bytes": 530
+    },
+    {
+      "path": "distribute/mcp-configs/trae.mcp.json",
+      "sha256": "63e2669bf479125ce88b8d1cd354cdcc096fe34e8fef36d35271374273e74884",
+      "bytes": 561
+    },
+    {
+      "path": "distribute/mcp-configs/zcode.mcp.json",
+      "sha256": "f5f00b167703978b5afbca13bb5c8cd906af6f40f4a15fcbc6b5010dc08aa98e",
+      "bytes": 530
+    },
+    {
+      "path": "mcp/src/approval.js",
+      "sha256": "4425df6dd2a2b011d451a30197a769e5a890eee651a56edca5636389937c0a79",
+      "bytes": 10013
+    },
+    {
+      "path": "mcp/src/config.js",
+      "sha256": "567c0b5db13044b2f2f64ac2c6593c0b428237e52ac6e1a06c1953ce8190d359",
+      "bytes": 12406
+    },
+    {
+      "path": "mcp/src/db.js",
+      "sha256": "8bda0b2e7de316fb2e42757e3261e011778a656b725dbf877b2dc200f30b942f",
+      "bytes": 5751
+    },
+    {
+      "path": "mcp/src/driver/dify.js",
+      "sha256": "eb62168e9e5ddaf7859a11853f3e660cf301f01b6cb1b7f34acb61cde27409be",
+      "bytes": 21596
+    },
+    {
+      "path": "mcp/src/driver/session.js",
+      "sha256": "96fe88a586988a98e471fea53dfe7858a668fce19a840808831755138db761f5",
+      "bytes": 25941
+    },
+    {
+      "path": "mcp/src/index.js",
+      "sha256": "7548c90ccd8a61ee4eee10143871baf3d3fac4dbb09b62119401fc840ff59973",
+      "bytes": 9585
+    },
+    {
+      "path": "mcp/src/license/activation.js",
+      "sha256": "9e8a41c1bfbbd3bada4495f19d41e3b1906b926546a110acb44b7f7223e59d9e",
+      "bytes": 13559
+    },
+    {
+      "path": "mcp/src/license/crypto.js",
+      "sha256": "0172acfad55a9318dd446fe9cc6d62a8245028845ab94dc783b3e01f04a94dd4",
+      "bytes": 8306
+    },
+    {
+      "path": "mcp/src/license/embedded-key.js",
+      "sha256": "1b9c083ad6a0f1a53241883aeafcd26ff6b94cae99f8f9c64f546d241dacb1cf",
+      "bytes": 4187
+    },
+    {
+      "path": "mcp/src/license/heartbeat.js",
+      "sha256": "09286f7a76251add9dbe5e3bc1f00f552aa3823101b8de349ea4d4bca4f8b129",
+      "bytes": 8722
+    },
+    {
+      "path": "mcp/src/license/types.js",
+      "sha256": "fa626ea70fae5b8691bc99c19af3d32033784fcfd3c45a204fb73f1f57f43e21",
+      "bytes": 10397
+    },
+    {
+      "path": "mcp/src/license/verify.js",
+      "sha256": "e6d82f96a4d3acc21efc6bcc6318e648aeea61720677726a80223fc166a929f0",
+      "bytes": 11918
+    },
+    {
+      "path": "mcp/src/paths.js",
+      "sha256": "9bf71dcafce276a3acd4d5001ce94aaf3c110d2308957d04a02aae77492ab9ac",
+      "bytes": 7173
+    },
+    {
+      "path": "mcp/src/report/aggregate.js",
+      "sha256": "263d6fac2f7da0cc8efaf3e1ca48c18ed3420aafacb0e929cf80df303b08a9f0",
+      "bytes": 7558
+    },
+    {
+      "path": "mcp/src/report/sign.js",
+      "sha256": "b9bb89269eef87ec500760abac84031934d22f096c9ab36094743f5a2cfbd4b5",
+      "bytes": 11245
+    },
+    {
+      "path": "mcp/src/tools-registry.js",
+      "sha256": "cf3f969b2c2e97f945559a8241bbd15a411f1ecdd0fa3dad82683bf5e1100d97",
+      "bytes": 5586
+    },
+    {
+      "path": "mcp/src/tools/deploy-probe.js",
+      "sha256": "46b6e8669c3ce05f3a9806a864cf18d787aa065328039eb6e99bd0c8bdebff51",
+      "bytes": 43353
+    },
+    {
+      "path": "mcp/src/tools/eval-run.js",
+      "sha256": "a233dc18d75d3cdcdef0264bc46ae1c4f94696174c52fcb2d56db5fa7815579e",
+      "bytes": 98316
+    },
+    {
+      "path": "mcp/src/tools/gate.js",
+      "sha256": "70f569bf322013f6038668a4e59bb9fdd2c8b369ff8d6b4a4f16d637dd4b6303",
+      "bytes": 25111
+    },
+    {
+      "path": "mcp/src/tools/manifest.js",
+      "sha256": "ef1beb3545c8a43de22246301805d3dcd9d15658e4fea51429ae6a53ac6f2959",
+      "bytes": 9612
+    },
+    {
+      "path": "mcp/src/tools/scaffold.js",
+      "sha256": "2fb7688ff452de612d349087d9b26ed627e24131911b1578eced16aa8ed1f96d",
+      "bytes": 57250
+    },
+    {
+      "path": "mcp/src/tools/status.js",
+      "sha256": "f6268a208a3e41fe0842dbbec15022613be412e9492732a801bc1d580871de97",
+      "bytes": 33702
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "3297e897bafb613434e1d7cc49899756f31fe956c0bccffd1366366898d8f445",
+      "bytes": 42463
+    },
+    {
+      "path": "package.json",
+      "sha256": "e53c05a0066eac5925a9849ff6d251b4ce1193fd4ffd90fda54ba5dcfd1ccf10",
+      "bytes": 392
+    },
+    {
+      "path": "patterns/hitl-approval.json",
+      "sha256": "62fd5b90048bfec553cb24b8ffbe988f8b0570717149bc6a5ec8b3d62902e40f",
+      "bytes": 11167
+    },
+    {
+      "path": "patterns/multi-agent-collab.json",
+      "sha256": "fe90b0a4120bb3d53e322feb4caeaff3ff7b867864765ecdf7f18703c186fffb",
+      "bytes": 10108
+    },
+    {
+      "path": "patterns/planner-executor.json",
+      "sha256": "9bfbe886f9e1af49818532aef4c1f5d4b82ed7276672114b530a2195764dcbbf",
+      "bytes": 10329
+    },
+    {
+      "path": "patterns/rag-pipeline.json",
+      "sha256": "63f7937fad51eed4856f98f54b983a7174b9fcacd004b5d2529beba85c013945",
+      "bytes": 10563
+    },
+    {
+      "path": "patterns/react-tool-loop.json",
+      "sha256": "5c138f1ec4cce59caa26ebedf6bdda7e82f4cdce0509cf6e1b2239950609b0db",
+      "bytes": 10952
+    },
+    {
+      "path": "patterns/reflection.json",
+      "sha256": "8a3d09edd9f3692332c742e10233430080b1dc8e89ac951e4d978e273cb3c839",
+      "bytes": 9620
+    },
+    {
+      "path": "patterns/router-supervisor.json",
+      "sha256": "7f3e6b72b0a84de56264c7209a4289353f721b6f2c55778aef4f376b1f1184d9",
+      "bytes": 9516
+    },
+    {
+      "path": "patterns/schema.json",
+      "sha256": "c3fbc990729e3c778fdaaba87efe0e55b95b03ca30e7b291e78702f25157ab98",
+      "bytes": 11852
+    },
+    {
+      "path": "patterns/workflow-orchestration.json",
+      "sha256": "124a890c458440884d5a83bf4388bd14a0e19c3b5e4fd941f366eb49f5362f11",
+      "bytes": 11123
+    },
+    {
+      "path": "protocol/assertions.js",
+      "sha256": "38258ec0bc31ea1753d3f95953c52a57b13520dd72bb007c1b8beb61042b01a0",
+      "bytes": 28389
+    },
+    {
+      "path": "protocol/goal-state.js",
+      "sha256": "602828af6977f118d2aad373dca4c49dfe85f2e2715fa8328c3698e0abee3a9f",
+      "bytes": 38277
+    },
+    {
+      "path": "protocol/quality-lint.js",
+      "sha256": "3fe28edf903f84ea70eb03380b03988cff3122bed044e242a21b09dea42deb96",
+      "bytes": 27202
+    },
+    {
+      "path": "protocol/run-policy.js",
+      "sha256": "c510a8b49fa4fe9d6bf53095a619a72fe79aa8bfcc892dcd12c32e8abe44f84e",
+      "bytes": 12219
+    },
+    {
+      "path": "protocol/session-driver.js",
+      "sha256": "2aaeb7ed4b3a68ccd160acf628077456fab7ae1b01315450eaca6fe26f4c482e",
+      "bytes": 10337
+    },
+    {
+      "path": "protocol/spec-approval.js",
+      "sha256": "442ed0ec0f52fd428170dfab628912072d5f32b63ab67de077bacea40d9e1121",
+      "bytes": 11577
+    },
+    {
+      "path": "protocol/trace-validate.js",
+      "sha256": "5c2c39d83e54eb1e214bda2d782021cb1bcf7c1305e1310d9481cfadae4fa1df",
+      "bytes": 20193
+    },
+    {
+      "path": "protocol/types.js",
+      "sha256": "2eb2f847ca0981dc641a900b59a70d3999bd9e1cd35c2754f741c69bae046053",
+      "bytes": 4041
+    },
+    {
+      "path": "selection/check.js",
+      "sha256": "da2c414112df03da1676f14bd9794ea988a6faa17b81013f2560478502ac83dd",
+      "bytes": 39774
+    },
+    {
+      "path": "selection/decide.js",
+      "sha256": "079740ae928cfcb3c55ed966d2c30449724c5e36f092726967f47f38687f144c",
+      "bytes": 19290
+    },
+    {
+      "path": "selection/matrix.json",
+      "sha256": "66dbf7a9937d5d0e34bfb3eca4adff860f03154e7fc5d4a69c84712894ca906d",
+      "bytes": 14985
+    },
+    {
+      "path": "skills/agentdev-brainstorm/SKILL.md",
+      "sha256": "959164aecba1f47cc8348fab7d3ea9ab1f4c46292a8531b78bef30f798bde169",
+      "bytes": 25734
+    },
+    {
+      "path": "skills/agentdev-deploy/SKILL.md",
+      "sha256": "9c3bbed5e16d01cf8e7b275faaa5fae102f996e6c7a53010837d9715bea6b768",
+      "bytes": 6804
+    },
+    {
+      "path": "skills/agentdev-eval/SKILL.md",
+      "sha256": "f67acf635b5756093d4abe5da1fedfeb1b2bec96946d41f272fab65741a6aa3b",
+      "bytes": 9149
+    },
+    {
+      "path": "skills/agentdev-goal/SKILL.md",
+      "sha256": "19064d0d71390be6504544840fa603b4abcfcfe93f31ea56861e5c0966eb5b20",
+      "bytes": 37017
+    },
+    {
+      "path": "skills/agentdev-init/SKILL.md",
+      "sha256": "ffbca71b97da61cc560ec913e5275ebed9e6d943dc301655d40c752315dee2ba",
+      "bytes": 8401
+    },
+    {
+      "path": "skills/agentdev-scaffold/SKILL.md",
+      "sha256": "c3c20715e7bbe16b1d3eb744df3f6f169aa5fa53281b0391475333121a859edf",
+      "bytes": 6467
+    },
+    {
+      "path": "skills/agentdev-status/SKILL.md",
+      "sha256": "9cc992e9f170d893dfb22b3570b932e716ccfea34587157c0fc73be41a5811cb",
+      "bytes": 7236
+    },
+    {
+      "path": "skills/agentdev-update/SKILL.md",
+      "sha256": "910acf650be34c2275a74ef27779c055dea8777e7bb545a01b42aa948425cc0c",
+      "bytes": 5320
+    },
+    {
+      "path": "templates/agents-sdk-python/.gitignore",
+      "sha256": "66dc331454f56a792464aae67d6aff1df165a58c34307aba6bd6520e457a2206",
+      "bytes": 95
+    },
+    {
+      "path": "templates/agents-sdk-python/README.md",
+      "sha256": "65ea6d748aedf45457d03a3ec4b55b5ccf02cd0da4f86aa10c36fa46fb0943be",
+      "bytes": 2168
+    },
+    {
+      "path": "templates/agents-sdk-python/agent.py",
+      "sha256": "d2a7680d41b1ea610bb2c06f33abf5f5a8211ea415c274ffffcf6747208d1361",
+      "bytes": 3416
+    },
+    {
+      "path": "templates/agents-sdk-python/build_prod.py",
+      "sha256": "81b172af32ce397f87e2c132142fcc0848540f62b9eccb40cb290637040b4aab",
+      "bytes": 5153
+    },
+    {
+      "path": "templates/agents-sdk-python/demo_agent.py",
+      "sha256": "603be760f672953df6e4ee1e9f4537b7ce20367774727a4ab50a7819cc5076aa",
+      "bytes": 1575
+    },
+    {
+      "path": "templates/agents-sdk-python/eval_stub.py",
+      "sha256": "c352b14b6900a6132bfc7fa19daf22b2e7dbcab6baca36f22a0050cc1d816de9",
+      "bytes": 9312
+    },
+    {
+      "path": "templates/agents-sdk-python/requirements.txt",
+      "sha256": "93f2c696c9cc8793ffe40a5d5767d046bb2cf3f5d893da0f16e964241d25edda",
+      "bytes": 413
+    },
+    {
+      "path": "templates/agents-sdk-python/tests/test_selftest.py",
+      "sha256": "a8c42fc7d73518780a20cf289a40bfa70f81126977c444fb881203e7016c4177",
+      "bytes": 8464
+    },
+    {
+      "path": "templates/agents-sdk-python/tracing.py",
+      "sha256": "e6c59af47e4fd76d14d00799e8ccd02942c7482db1c69bd4db9b4f8f79e25395",
+      "bytes": 6310
+    },
+    {
+      "path": "templates/agents-sdk-ts/.gitignore",
+      "sha256": "2a3dd39de9ac0192b3b172fac194f02158ec694ac4c3d07b13cbe677fd6b2d29",
+      "bytes": 79
+    },
+    {
+      "path": "templates/agents-sdk-ts/README.md",
+      "sha256": "2f4328b35d48249faf20967c34d07168b3f91faa10af4005c593ff308ffb58ec",
+      "bytes": 2287
+    },
+    {
+      "path": "templates/agents-sdk-ts/eval/stub.ts",
+      "sha256": "cdfd16becd33eacf96a3ca52d90faa3aac96e7b4483393a029df2c722e3c6dc1",
+      "bytes": 9511
+    },
+    {
+      "path": "templates/agents-sdk-ts/package.json",
+      "sha256": "ffc1c83c569404e4acc6526f1d3691799acaf213e5dd5e375bfcb505b8d9e6bc",
+      "bytes": 491
+    },
+    {
+      "path": "templates/agents-sdk-ts/scripts/build-prod.mjs",
+      "sha256": "f0be5cc35bbe7483f55876a2e5d2e9d3950fbf3ab60f2ca0ee26828c26bea47c",
+      "bytes": 5273
+    },
+    {
+      "path": "templates/agents-sdk-ts/src/agent.ts",
+      "sha256": "d5ee204b9713ae9a47ba2c6b972c44270a58a9db319dfc760faed04722163730",
+      "bytes": 3466
+    },
+    {
+      "path": "templates/agents-sdk-ts/src/demo_agent.ts",
+      "sha256": "5cb0b5e66c5c2fe08b097e01b7ac611b6cc2534eefb943fcafae563fcf0e9c4d",
+      "bytes": 1227
+    },
+    {
+      "path": "templates/agents-sdk-ts/src/tracing.ts",
+      "sha256": "cf5374330adba8c5e87d509066b2d752cfea7f8a0f847d38d041beeaa4bd0a2d",
+      "bytes": 6721
+    },
+    {
+      "path": "templates/agents-sdk-ts/tests/selftest.test.ts",
+      "sha256": "85852b16dad6040fab352711877f9be00ab012929bbc6999d6d5e79cbd166dbd",
+      "bytes": 9730
+    },
+    {
+      "path": "templates/agents-sdk-ts/tsconfig.json",
+      "sha256": "6067e6bcd4dded1e18305081868a56ebfd03c952f8046b0a209e988970addee6",
+      "bytes": 443
+    },
+    {
+      "path": "templates/autogen-python/.gitignore",
+      "sha256": "66dc331454f56a792464aae67d6aff1df165a58c34307aba6bd6520e457a2206",
+      "bytes": 95
+    },
+    {
+      "path": "templates/autogen-python/README.md",
+      "sha256": "c2565c2098523df6d22305c6809699d744011cf8cd455ebfb0701491079675c7",
+      "bytes": 2157
+    },
+    {
+      "path": "templates/autogen-python/agent.py",
+      "sha256": "d2a7680d41b1ea610bb2c06f33abf5f5a8211ea415c274ffffcf6747208d1361",
+      "bytes": 3416
+    },
+    {
+      "path": "templates/autogen-python/build_prod.py",
+      "sha256": "81b172af32ce397f87e2c132142fcc0848540f62b9eccb40cb290637040b4aab",
+      "bytes": 5153
+    },
+    {
+      "path": "templates/autogen-python/demo_agent.py",
+      "sha256": "c2fe0b18b8549713f228dfa5cefc73215d0a9d23e8463432e1abc670e797b834",
+      "bytes": 1550
+    },
+    {
+      "path": "templates/autogen-python/eval_stub.py",
+      "sha256": "c352b14b6900a6132bfc7fa19daf22b2e7dbcab6baca36f22a0050cc1d816de9",
+      "bytes": 9312
+    },
+    {
+      "path": "templates/autogen-python/requirements.txt",
+      "sha256": "c0493b43661fd492efcb99ebf6db52f32844b22b08ab5bb9e23776da7648c73a",
+      "bytes": 411
+    },
+    {
+      "path": "templates/autogen-python/tests/test_selftest.py",
+      "sha256": "a8c42fc7d73518780a20cf289a40bfa70f81126977c444fb881203e7016c4177",
+      "bytes": 8464
+    },
+    {
+      "path": "templates/autogen-python/tracing.py",
+      "sha256": "e6c59af47e4fd76d14d00799e8ccd02942c7482db1c69bd4db9b4f8f79e25395",
+      "bytes": 6310
+    },
+    {
+      "path": "templates/claude-sdk-ts/.gitignore",
+      "sha256": "2a3dd39de9ac0192b3b172fac194f02158ec694ac4c3d07b13cbe677fd6b2d29",
+      "bytes": 79
+    },
+    {
+      "path": "templates/claude-sdk-ts/README.md",
+      "sha256": "3be02a8f62889f974c8ae19b8a3d54517904b68d98032cae27b7ba6b8e8fffdc",
+      "bytes": 2338
+    },
+    {
+      "path": "templates/claude-sdk-ts/eval/stub.ts",
+      "sha256": "cdfd16becd33eacf96a3ca52d90faa3aac96e7b4483393a029df2c722e3c6dc1",
+      "bytes": 9511
+    },
+    {
+      "path": "templates/claude-sdk-ts/package.json",
+      "sha256": "b5489573862f892eed99347cff523a5c75df27d60be9342f46fa091fe3f547e9",
+      "bytes": 506
+    },
+    {
+      "path": "templates/claude-sdk-ts/scripts/build-prod.mjs",
+      "sha256": "f0be5cc35bbe7483f55876a2e5d2e9d3950fbf3ab60f2ca0ee26828c26bea47c",
+      "bytes": 5273
+    },
+    {
+      "path": "templates/claude-sdk-ts/src/agent.ts",
+      "sha256": "d5ee204b9713ae9a47ba2c6b972c44270a58a9db319dfc760faed04722163730",
+      "bytes": 3466
+    },
+    {
+      "path": "templates/claude-sdk-ts/src/demo_agent.ts",
+      "sha256": "8be53f4318a1b5f5a5b6721b3ed6de8b77047f36c7a0109e9a86f7af0b45e751",
+      "bytes": 1274
+    },
+    {
+      "path": "templates/claude-sdk-ts/src/tracing.ts",
+      "sha256": "cf5374330adba8c5e87d509066b2d752cfea7f8a0f847d38d041beeaa4bd0a2d",
+      "bytes": 6721
+    },
+    {
+      "path": "templates/claude-sdk-ts/tests/selftest.test.ts",
+      "sha256": "85852b16dad6040fab352711877f9be00ab012929bbc6999d6d5e79cbd166dbd",
+      "bytes": 9730
+    },
+    {
+      "path": "templates/claude-sdk-ts/tsconfig.json",
+      "sha256": "6067e6bcd4dded1e18305081868a56ebfd03c952f8046b0a209e988970addee6",
+      "bytes": 443
+    },
+    {
+      "path": "templates/dify-dsl/src/generate.js",
+      "sha256": "fcc774afbb607fd947f0cc0ecf7fc0c29b433fee600a1b65f70a57f22420db16",
+      "bytes": 17427
+    },
+    {
+      "path": "templates/dify-dsl/src/hash.js",
+      "sha256": "58257cde8aeac7814adcaaa9464be85bddb21c95315a34f046328b6660adbc86",
+      "bytes": 7368
+    },
+    {
+      "path": "templates/dify-dsl/src/index.js",
+      "sha256": "de41729083394ad3d8eb8dc68ce51adbed739f9e56616f37f3346a4cc6cfb4bd",
+      "bytes": 4364
+    },
+    {
+      "path": "templates/dify-dsl/src/memory-knowledge.js",
+      "sha256": "2e063fe059e5833dc406900c4d085129949023a18f72fc15c33ffe5bc9339577",
+      "bytes": 8172
+    },
+    {
+      "path": "templates/dify-dsl/src/types.js",
+      "sha256": "c0930530e260ea957f563fc1af87e02d9b895c590a40f1b9eb383bb154765053",
+      "bytes": 4068
+    },
+    {
+      "path": "templates/dify-dsl/src/yaml.js",
+      "sha256": "bb255a26ebbbc0d639b2801cb66144800d022464b77acc19cdd21e94266c50c0",
+      "bytes": 30633
+    },
+    {
+      "path": "templates/langgraph-js/.gitignore",
+      "sha256": "2a3dd39de9ac0192b3b172fac194f02158ec694ac4c3d07b13cbe677fd6b2d29",
+      "bytes": 79
+    },
+    {
+      "path": "templates/langgraph-js/README.md",
+      "sha256": "0835c2c9c943dab4b93da641d4b5e449f0e4ff7afaed60532a88054d00df2867",
+      "bytes": 2315
+    },
+    {
+      "path": "templates/langgraph-js/eval/stub.ts",
+      "sha256": "cdfd16becd33eacf96a3ca52d90faa3aac96e7b4483393a029df2c722e3c6dc1",
+      "bytes": 9511
+    },
+    {
+      "path": "templates/langgraph-js/package.json",
+      "sha256": "6bb24a1f523d0782e10ffea82fd608141d22a0edcee0ecf4ee6f09d783aae5b9",
+      "bytes": 496
+    },
+    {
+      "path": "templates/langgraph-js/scripts/build-prod.mjs",
+      "sha256": "f0be5cc35bbe7483f55876a2e5d2e9d3950fbf3ab60f2ca0ee26828c26bea47c",
+      "bytes": 5273
+    },
+    {
+      "path": "templates/langgraph-js/src/agent.ts",
+      "sha256": "d5ee204b9713ae9a47ba2c6b972c44270a58a9db319dfc760faed04722163730",
+      "bytes": 3466
+    },
+    {
+      "path": "templates/langgraph-js/src/demo_agent.ts",
+      "sha256": "c6a3c0a8a9a800a146d18410978ac796c984a87b8fb0081a6f0759164e8bd0a0",
+      "bytes": 1240
+    },
+    {
+      "path": "templates/langgraph-js/src/tracing.ts",
+      "sha256": "cf5374330adba8c5e87d509066b2d752cfea7f8a0f847d38d041beeaa4bd0a2d",
+      "bytes": 6721
+    },
+    {
+      "path": "templates/langgraph-js/tests/selftest.test.ts",
+      "sha256": "85852b16dad6040fab352711877f9be00ab012929bbc6999d6d5e79cbd166dbd",
+      "bytes": 9730
+    },
+    {
+      "path": "templates/langgraph-js/tsconfig.json",
+      "sha256": "6067e6bcd4dded1e18305081868a56ebfd03c952f8046b0a209e988970addee6",
+      "bytes": 443
+    },
+    {
+      "path": "templates/langgraph-python/.gitignore",
+      "sha256": "66dc331454f56a792464aae67d6aff1df165a58c34307aba6bd6520e457a2206",
+      "bytes": 95
+    },
+    {
+      "path": "templates/langgraph-python/README.md",
+      "sha256": "ff85aac18eed79e4ea67382365cd9d9a57be7f182e589955af1b22eeab194cd0",
+      "bytes": 2124
+    },
+    {
+      "path": "templates/langgraph-python/agent.py",
+      "sha256": "d2a7680d41b1ea610bb2c06f33abf5f5a8211ea415c274ffffcf6747208d1361",
+      "bytes": 3416
+    },
+    {
+      "path": "templates/langgraph-python/build_prod.py",
+      "sha256": "81b172af32ce397f87e2c132142fcc0848540f62b9eccb40cb290637040b4aab",
+      "bytes": 5153
+    },
+    {
+      "path": "templates/langgraph-python/demo_agent.py",
+      "sha256": "6684744d38eae35b67f1f3547c21a45cfc6950b41d36bbcd6678475f13951b1c",
+      "bytes": 1504
+    },
+    {
+      "path": "templates/langgraph-python/eval_stub.py",
+      "sha256": "c352b14b6900a6132bfc7fa19daf22b2e7dbcab6baca36f22a0050cc1d816de9",
+      "bytes": 9312
+    },
+    {
+      "path": "templates/langgraph-python/requirements.txt",
+      "sha256": "7e1c0d368d6603999e3ca0f3edc4cd48dafe5074d05d110d2aea3442e62a1ded",
+      "bytes": 397
+    },
+    {
+      "path": "templates/langgraph-python/tests/test_selftest.py",
+      "sha256": "a8c42fc7d73518780a20cf289a40bfa70f81126977c444fb881203e7016c4177",
+      "bytes": 8464
+    },
+    {
+      "path": "templates/langgraph-python/tracing.py",
+      "sha256": "e6c59af47e4fd76d14d00799e8ccd02942c7482db1c69bd4db9b4f8f79e25395",
+      "bytes": 6310
+    },
+    {
+      "path": "update.mjs",
+      "sha256": "fe36d90f661eb4201b9b990c3c151b18b9f38544d469aae2c841721af3bc4e31",
+      "bytes": 29368
+    }
+  ],
+  "signingKeySha256": "d32751e196410059",
+  "signature": "ep7X98G3IMT+XY1Agz5nQ7HN48W3/oAadDCOhNw4cjO/rn1GYjwwbsRYJoeZf2f2fAQmbVfp4nHLSYURSO1XAg=="
+}
