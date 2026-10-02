@@ -20,8 +20,9 @@ releases/<版本>/agentdev-<版本>.tgz.sha256
   curl -L -o agentdev-2.0.0.tgz https://raw.githubusercontent.com/arch-engine-new/agent-engine-release/master/releases/2.0.0/agentdev-2.0.0.tgz
   curl -L -o agentdev-2.0.0.tgz.sha256 https://raw.githubusercontent.com/arch-engine-new/agent-engine-release/master/releases/2.0.0/agentdev-2.0.0.tgz.sha256
   ```
-  本仓库为 **Private**：网页下载需登录账号；raw URL 匿名访问会 404，命令行下载需认证
-  （`curl -H "Authorization: Bearer <GitHub token>"`，token 需对该仓库有读权限）；
+  本仓库当前为 **Public**（raw 匿名可读，2026-10-02 实测 200）；网页下载需登录账号。
+  若仓库转为 Private：raw 匿名访问会 404，命令行下载需认证
+  （`curl -H "Authorization: Bearer <GitHub token>"`，token 需对该仓库有读权限）。
 - **已装客户机**：直接用包内更新命令（见下），自动完成版本发现/验签/下载/安装。
 
 ## 安装（三步之二）
@@ -65,5 +66,7 @@ node update.mjs --base-url=https://raw.githubusercontent.com/arch-engine-new/age
 下载 + sha256 校验 → 备份 → 解包 → skills 重分发 → `npm ci` → 版本回写。
 Private 仓库下 raw 下载需认证：设 env `AGENTDEV_RELEASE_AUTH_TOKEN=<GitHub token>`
 （update 会作为 `Authorization: Bearer` 附在请求上）。
+注意：push 后 raw CDN 有分钟级收敛延迟，若 sha256 校验失败请稍后重试
+（fail-closed：校验不符拒装，不会装坏）。
 
 详细说明见包内 `INSTALL.md`。
