@@ -1,10 +1,10 @@
 {
   "manifestVersion": "2026-09-30.1",
   "packageVersion": "2.0.0",
-  "createdAt": "2026-10-02T03:41:42.624Z",
+  "createdAt": "2026-10-02T03:44:59.303Z",
   "packageFile": "agentdev-2.0.0.tgz",
-  "packageSha256": "134232616f3b5b8385ecc6fa4dd2079e396f2776f0f4a6c6605b1a83c0e12479",
-  "packageBytes": 465519,
+  "packageSha256": "704bb3001b406226ff8d4ee7822906247d1080fa9f856ac7a3e4d8bff2c5af3a",
+  "packageBytes": 465840,
   "files": [
     {
       "path": "INSTALL.md",
@@ -688,10 +688,10 @@
     },
     {
       "path": "update.mjs",
-      "sha256": "e9ec70a7ee81f674fd2683c9ffdfc1fc62282d4124b59268211c3c74b2a6dfea",
-      "bytes": 29814
+      "sha256": "38a038326a74c8b8103b275acce3bd117a67da2d8502b1bd95d50f5b1a691122",
+      "bytes": 30535
     }
   ],
   "signingKeySha256": "d32751e196410059",
-  "signature": "NdNgAmd8xeAsBQP/GJfeZlqvUl4RAYwYFtIjw3tnvai3e2DlYU7Qv6KUmo8Y5NWkELhstsU1K3BE01BttmMlBA=="
+  "signature": "wIKmfZuQDatJfleU1wX441DLhMsQ/fxfrDtf4ndDwRddJnP5U9TBTu+z9ELV4o4ufLF3HUev+A4RWq9xl9Z9BQ=="
 }
