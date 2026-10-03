@@ -10,15 +10,22 @@ releases/<版本>/agentdev-<版本>.tgz    交付包（不可变）
 releases/<版本>/agentdev-<版本>.tgz.sha256
 ```
 
-当前版本：**2.0.0**
+## 版本表
+
+| 版本  | 状态 | tgz sha256（前 16 位） | 说明 |
+|-------|------|------------------------|------|
+| 2.1.0 | 当前 | `f32adb84dcd2c967`    | 新增本机级一键安装（包内 `install.sh` / `install.ps1`，用户级 MCP 注册 + 八命令分发 + 冒烟） |
+| 2.0.0 | 存档 | `704bb3001b406226`    | 首个 GitHub 发行版本 |
+
+当前版本：**2.1.0**
 
 ## 下载（三步之一）
 
-- **网页**：在 GitHub 网页进入 `releases/2.0.0/` 下载 `agentdev-2.0.0.tgz`；
+- **网页**：在 GitHub 网页进入 `releases/2.1.0/` 下载 `agentdev-2.1.0.tgz`；
 - **命令行（raw URL）**：
   ```
-  curl -L -o agentdev-2.0.0.tgz https://raw.githubusercontent.com/arch-engine-new/agent-engine-release/master/releases/2.0.0/agentdev-2.0.0.tgz
-  curl -L -o agentdev-2.0.0.tgz.sha256 https://raw.githubusercontent.com/arch-engine-new/agent-engine-release/master/releases/2.0.0/agentdev-2.0.0.tgz.sha256
+  curl -L -o agentdev-2.1.0.tgz https://raw.githubusercontent.com/arch-engine-new/agent-engine-release/master/releases/2.1.0/agentdev-2.1.0.tgz
+  curl -L -o agentdev-2.1.0.tgz.sha256 https://raw.githubusercontent.com/arch-engine-new/agent-engine-release/master/releases/2.1.0/agentdev-2.1.0.tgz.sha256
   ```
   本仓库当前为 **Public**（raw 匿名可读，2026-10-02 实测 200）；网页下载需登录账号。
   若仓库转为 Private：raw 匿名访问会 404，命令行下载需认证
@@ -31,13 +38,20 @@ releases/<版本>/agentdev-<版本>.tgz.sha256
 
 1. 解包到客户项目根下一级目录（推荐 `<项目根>/agentdev/`）：
    ```
-   mkdir -p <项目根>/agentdev && tar -xzf agentdev-2.0.0.tgz -C <项目根>/agentdev
+   mkdir -p <项目根>/agentdev && tar -xzf agentdev-2.1.0.tgz -C <项目根>/agentdev
    ```
 2. 校验完整性（可选但推荐）：
    ```
-   cd <项目根>/agentdev && sha256sum -c <(cat /path/to/agentdev-2.0.0.tgz.sha256)
+   cd <项目根>/agentdev && sha256sum -c <(cat /path/to/agentdev-2.1.0.tgz.sha256)
    ```
-3. 安装运行时依赖（包根执行）：`npm ci`
+3. **本机级一键安装（2.1.0 推荐）**——在包根执行，自动完成依赖安装 + 用户级 MCP 注册
+   （七平台，合并不覆盖、写前备份）+ 八个 agentdev-* 命令分发 + stdio boot 冒烟：
+   ```
+   bash install.sh          # macOS / Linux（--dry-run 预览 / --uninstall 卸载 / --ide=<name> 限域）
+   .\install.ps1            # Windows PowerShell（-DryRun / -Uninstall）
+   ```
+   或 **手动逐步**：包根 `npm ci` → 按「注册 MCP 服务」注册 → 需要时
+   `node update.mjs --redistribute-only --project-root=<项目根>` 重分发项目级 skills。
 
 ## 激活（三步之三）
 
@@ -53,8 +67,9 @@ releases/<版本>/agentdev-<版本>.tgz.sha256
 
 ## 注册 MCP 服务
 
-入口 `node <安装根>/mcp/src/index.js`，env `AGENTDEV_PROJECT_ROOT=<项目根>`；
-模板见包内 `distribute/mcp-configs/commercial-node.mcp.json`。
+- 走「本机级一键安装」的用户已自动注册（用户级，任意项目可用，无需项目级配置）；
+- 手动安装：入口 `node <安装根>/mcp/src/index.js`，env `AGENTDEV_PROJECT_ROOT=<项目根>`；
+  模板见包内 `distribute/mcp-configs/commercial-node.mcp.json`。
 
 ## 在线更新（已装客户机）
 
